@@ -1,0 +1,51 @@
+h1{
+   color: #690397;
+   text-align: center;  10 font-family: 'Orbitron', sans-serif;
+
+
+}
+
+
+
+h2{
+   color: #8b0fc1;
+   font-family: 'Orbitron', sans-serif;
+   text-align: center;
+
+
+
+}
+table{
+      background-color: black;
+      color: white;
+      border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid white;
+        }
+
+p{
+   color: #01fd99;
+
+}
+
+body::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background:
+		linear-gradient(135deg,
+			#0a0014 0%,
+			#1a0a2e 25%,
+			#16213e 50%,
+			#0f3460 75%,
+			#0a0014 100%),
+		radial-gradient(ellipse at top left, rgba(138, 43, 226, 0.25) 0%, transparent 50%),
+		radial-gradient(ellipse at bottom right, rgba(255, 0, 110, 0.25) 0%, transparent 50%),
+		radial-gradient(ellipse at center, rgba(0, 245, 255, 0.15) 0%, transparent 60%);
+	z-index: -3;
+}
+
