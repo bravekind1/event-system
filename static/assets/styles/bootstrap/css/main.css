@@ -1,6 +1,6 @@
 h1{
    color: #690397;
-   text-align: center;  10 font-family: 'Orbitron', sans-serif;
+   text-align: center; font-family: 'Orbitron', sans-serif;
 
 
 }
@@ -48,4 +48,14 @@ body::before {
 		radial-gradient(ellipse at center, rgba(0, 245, 255, 0.15) 0%, transparent 60%);
 	z-index: -3;
 }
+.aform{
+	background-color: blue;
+	padding: 20px;
+	width: 400px;
+	border-radius: 15px;
 
+
+
+
+
+}
